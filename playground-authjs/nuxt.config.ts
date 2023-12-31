@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     globalAppMiddleware: {
       isEnabled: true,
     },
-    baseURL: "http://localhost:3000",
+    baseURL: "http://localhost:3001",
   },
   routeRules: {
     "/with-caching": {
